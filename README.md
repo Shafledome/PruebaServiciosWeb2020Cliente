@@ -1,4 +1,4 @@
-# yatam-web-client
+# PruebaServiciosWeb2020Cliente
 
 ## Project setup
 1. Install Node.JS in your computer:
