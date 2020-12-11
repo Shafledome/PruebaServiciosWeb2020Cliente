@@ -1,4 +1,4 @@
-# yatam-web-client
+# PruebaServiciosWeb2020Cliente
 
 ## Project setup
 1. Install Node.JS in your computer:
@@ -77,6 +77,7 @@ npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest
 npm i --save @fortawesome/free-brands-svg-icons
+npm i --save vue-router
 ```
 ## Error: System Limit for Number of File Watchers Reached
 This error is common since React/Angular/Vue hot-reloads and recompiles files on save it needs to keep track of all project's files. Increasing the inotify watch limit should hide the warning messages.
