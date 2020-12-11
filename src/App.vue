@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {router} from './main.js'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  mounted() {
+    router.push({name: 'home'})
   }
-}
+};
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @import "~bulma/sass/utilities/_all";
+
+  @import "~bulma";
+  @import "~buefy/src/scss/buefy";
 </style>
